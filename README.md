@@ -4,6 +4,6 @@ puppet a cron task to periodically run clearing script.
 
 Python script does the following:
 
-1) Gets config for specific database - DB2 log directory and required log days-to-keep.
-2) Form a list of logs, calculate cutoff value to find old ones.
-3) remove old logs.
+1. Gets config for specific database - DB2 log directory and required log days-to-keep.
+2. Forms a list of logs, calculate cutoff value to find old ones.
+3. Removes old logs.
